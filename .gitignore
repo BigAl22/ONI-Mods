@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Others
+ONIModTest/
+ONIModTest2/
+EnableAchievementsWithSandboxAndDebug/
+
+
 # User-specific files
 *.rsuser
 *.suo
