@@ -11,16 +11,5 @@ namespace LargerGasStorage
         {
             base.OnLoad(harmony);
         }
-        /*
-        public override void OnAllModsLoaded(Harmony harmony, IReadOnlyList<Mod> mods)
-        {
-            foreach (var mod in mods)
-            {
-                // do some stuff
-                Debug.Log("Found mod: " + mod.title + " with static ID of (" + mod.staticID + ")/n- " + mod.description + "\nMore information: " + mod.packagedModInfo);
-            }
-        }
-        */
-
     }
 }
