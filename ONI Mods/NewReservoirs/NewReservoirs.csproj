@@ -51,6 +51,9 @@
     <Reference Include="Assembly-CSharp-firstpass">
       <HintPath>..\lib\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
+	  <Reference Include="PLib">
+		  <HintPath>..\lib\PLib.dll</HintPath>
+	  </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -68,6 +71,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NewLiquidReservoirConfig.cs" />
+    <Compile Include="NewGasReservoirConfig.cs" />
     <Compile Include="NewReservoirsPatches.cs" />
     <Compile Include="NewReservoirsMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

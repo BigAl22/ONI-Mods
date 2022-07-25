@@ -25,4 +25,13 @@ namespace NewReservoirs
             }
         }
     }
+
+    public static class AddBuildingToUI
+    {
+        /*
+         * Add to building 
+         * 
+         * Add to Tech Tree
+         */
+    }
 }
